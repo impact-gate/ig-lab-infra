@@ -1,0 +1,6 @@
+{
+  "name": "infra",
+  "language": "yaml",
+  "role": "infrastructure",
+  "calls": []
+}

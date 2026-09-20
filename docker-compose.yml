@@ -1,0 +1,26 @@
+version: '3.8'
+services:
+  gateway:
+    image: node:22-alpine
+    container_name: iglab-gateway
+    working_dir: /app
+    volumes:
+      - ./gateway:/app
+      - ./logs:/logs
+    ports:
+      - "8080:8080"
+    command: node server.js
+    environment:
+      - CATALOG_URL=http://catalog:3001
+      - LOANS_URL=http://loans:3002
+      - LOG_FILE=/logs/access.jsonl
+
+  catalog:
+    image: node:22-alpine
+    container_name: iglab-catalog
+    working_dir: /app
+    volumes:
+      - ../ig-lab-catalog-api:/app
+    ports:
+      - "3001:3001"
+    command: sh -c "npm install && node --loader tsx src/server.ts"
