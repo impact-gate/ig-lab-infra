@@ -1,0 +1,15 @@
+{"timestamp":"2026-09-20T23:20:39.740Z","caller":"consumer-ts-1","method":"GET","path":"/v1/products/prod_101","status":200}
+{"timestamp":"2026-09-20T23:20:39.746Z","caller":"consumer-ts-1","method":"GET","path":"/v1/inventory/prod_101","status":200}
+{"timestamp":"2026-09-20T23:20:39.748Z","caller":"consumer-ts-2","method":"GET","path":"/v1/products","status":200}
+{"timestamp":"2026-09-20T23:20:39.749Z","caller":"consumer-ts-2","method":"GET","path":"/v1/categories","status":200}
+{"timestamp":"2026-09-20T23:20:39.751Z","caller":"consumer-ts-3","method":"GET","path":"/v1/pricing/prod_101","status":200}
+{"timestamp":"2026-09-20T23:20:39.754Z","caller":"consumer-ts-3","method":"GET","path":"/v1/loans/loan_101","status":200}
+{"timestamp":"2026-09-20T23:20:39.755Z","caller":"consumer-ts-4","method":"GET","path":"/v1/products/prod_101","status":200}
+{"timestamp":"2026-09-20T23:20:39.757Z","caller":"consumer-ts-4","method":"GET","path":"/v1/loans/loan_101/schedule","status":200}
+{"timestamp":"2026-09-20T23:20:39.759Z","caller":"consumer-java-1","method":"GET","path":"/v1/loans/loan_101","status":200}
+{"timestamp":"2026-09-20T23:20:39.761Z","caller":"consumer-java-2","method":"GET","path":"/v1/rates","status":200}
+{"timestamp":"2026-09-20T23:20:39.761Z","caller":"consumer-java-2","method":"GET","path":"/v1/loans/loan_101/schedule","status":200}
+{"timestamp":"2026-09-20T23:20:39.762Z","caller":"consumer-java-3","method":"GET","path":"/v1/loans/loan_101","status":200}
+{"timestamp":"2026-09-20T23:20:39.762Z","caller":"consumer-java-3","method":"GET","path":"/v1/customers/cust_101","status":200}
+{"timestamp":"2026-09-20T23:20:39.763Z","caller":"consumer-java-4","method":"GET","path":"/v1/loans/loan_101","status":200}
+{"timestamp":"2026-09-20T23:20:39.763Z","caller":"consumer-java-4","method":"GET","path":"/v1/products/prod_101","status":200}

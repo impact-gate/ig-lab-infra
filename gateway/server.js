@@ -23,6 +23,7 @@ const server = http.createServer(async (req, res) => {
   res.end(JSON.stringify({ status: "ok", caller, url: req.url }));
 });
 
-server.listen(8080, () => {
-  console.log("Lab Gateway running on port 8080");
+const PORT = process.env.PORT || 8088;
+server.listen(PORT, () => {
+  console.log(`Lab Gateway running on port ${PORT}`);
 });
